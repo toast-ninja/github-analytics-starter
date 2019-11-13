@@ -8,6 +8,10 @@
   },
   "author": "rea@toast.ninja",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint:fix": "npx eslint --fix"
+  },
   "dependencies": {
     "@octokit/app": "^2.2.0",
     "@octokit/plugin-retry": "^2.1.2",
