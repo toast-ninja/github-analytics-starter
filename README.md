@@ -19,7 +19,7 @@ GITHUB_APP_NAME=toast-app-dev
 GITHUB_APP_PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----\n---🍑THIS IS JUST AN EXAMPLE🍑----\n-----END RSA PRIVATE KEY-----\n"
 ```
 
-The trickiest part is to set private key properly as it has to be formatted as a single-line string with `\n` delivemters.
+The trickiest part is to set private key properly as it has to be formatted as a single-line string with `\n` delimiters.
 
 Lastly that don't forget to modify `src/index.js` with your org name, run `npm start`, it will run and save results in `${org}-prs.json` file. 
 
