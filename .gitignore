@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# secret/certificate
+*.pem
+
 # Runtime data
 pids
 *.pid
@@ -56,6 +59,17 @@ typings/
 
 # dotenv environment variables file
 .env
+!.env.test
 
 # next.js build output
 .next
+
+
+*.orig
+
+
+# migrations backup file
+_current_bak.json
+
+# extras
+.DS_Store

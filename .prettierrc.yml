@@ -1,0 +1,8 @@
+# .prettierrc
+printWidth: 85
+parser: babylon
+trailingComma: all
+useTabs: true
+tabWidth: 2
+semi: false
+singleQuote: true

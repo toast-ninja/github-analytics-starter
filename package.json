@@ -1,0 +1,47 @@
+{
+  "name": "github-analytics-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rea@toast.ninja",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/app": "^2.2.0",
+    "@octokit/plugin-retry": "^2.1.2",
+    "@octokit/plugin-throttling": "toast-ninja/plugin-throttling.js",
+    "@octokit/rest": "^16.15.0",
+    "axios": "^0.19.0",
+    "bluebird": "^3.7.1",
+    "chalk": "^3.0.0",
+    "date-fns": "^1.30.1",
+    "dotenv": "^8.2.0",
+    "fast-safe-stringify": "^2.0.7",
+    "ora": "^4.0.3",
+    "pretty-ms": "^5.0.0",
+    "ramda": "^0.26.1",
+    "time-span": "^3.1.0",
+    "write-json-file": "^4.2.0"
+  },
+  "devDependencies": {
+    "dotenv-safe": "^8.1.0",
+    "prettier": "^1.19.1",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-ramda": "^2.5.1",
+    "eslint-plugin-unicorn": "^7.1.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "husky": "^3.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint:fix"
+    }
+  }
+}
