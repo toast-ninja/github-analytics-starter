@@ -3,7 +3,7 @@ const groupItemsByTotalSum = require('./group-items-by-total-sum')
 
 // this number represents "max number of PRs accross repos"
 // it will be used to group those repo's together until this MAX is reached
-// It's picked experimentally. We run queries agains Envoy org to figure out the right
+// It's picked experimentally. We run queries agains some of the large orgs to figure out the right
 // threshold and 80 seems like a sweets spot.
 const MAX_PRS_COUNT = 80
 
